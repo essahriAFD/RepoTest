@@ -1,8 +1,5 @@
-Feature: Importer un référentiel GitHub
-
-  Scenario: Importer un référentiel sur GitHub
-    Given Je suis connecté à GitHub avec mon compte
-    When Je choisis d'importer un référentiel
-    And Je saisis les détails du référentiel à importer
-    And Je valide l'importation
-    Then Le référentiel est importé avec succès sur GitHub
+Feature: Add Numbers
+  Scenario: Addition of two numbers
+    Given I have the numbers 2 and 3
+    When I add these two numbers
+    Then I get the result 5
